@@ -32,6 +32,8 @@ Plug 'hzchirs/vim-material'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 call plug#end()
 
 let g:material_style='oceanic'
@@ -44,6 +46,8 @@ let NERDTreeMinimalUI=0
 let NERDTreeStatusline='vim'
 
 let g:airline_powerline_fonts = 1
+
+let g:mkdp_markdown_css = expand('~/.vim-markdown-preview.css')
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
