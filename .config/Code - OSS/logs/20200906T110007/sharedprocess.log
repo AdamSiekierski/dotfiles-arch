@@ -1,0 +1,2 @@
+[2020-09-06 11:00:11.065] [sharedprocess] [info] main {"machineId":"6059ed40b1483851e33a36516afad2591dbcaebcd216a3360e7d99e371b32dbc","windowId":2}
+[2020-09-06 11:00:11.091] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/adamsiekierski/.config/Code - OSS/User/snippets'

@@ -177,7 +177,7 @@ bindsym $mod+r mode "resize"
 # apperance
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-fill ~/Downloads/spacex.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/spacex.jpg
 
 for_window [class=".*"] border pixel 0
 
@@ -202,9 +202,6 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Keyboard layout switch
 exec --no-startup-id "setxkbmap -model pc105 -layout pl,us -option grp:win_space_toggle"
-
-# Compton
-exec compton
 
 # Screenshot
 bindsym Print exec gnome-screenshot -i

@@ -1,0 +1,10 @@
+[2020-09-01 22:34:52.037] [sharedprocess] [info] main {"machineId":"6059ed40b1483851e33a36516afad2591dbcaebcd216a3360e7d99e371b32dbc","windowId":2}
+[2020-09-01 22:34:52.044] [sharedprocess] [trace] Started scanning system extensions
+[2020-09-01 22:34:52.045] [sharedprocess] [trace] Started scanning user extensions
+[2020-09-01 22:34:52.048] [sharedprocess] [trace] Extension VSIX downlads cache dir does not exist
+[2020-09-01 22:34:52.049] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/adamsiekierski/.config/Code - OSS/User/snippets'
+[2020-09-01 22:34:52.050] [sharedprocess] [trace] Scanned user extensions: 0
+[2020-09-01 22:34:52.050] [sharedprocess] [debug] Writing language packs {}
+[2020-09-01 22:34:52.068] [sharedprocess] [trace] {"errno":-2,"code":"ENOENT","syscall":"open","path":"/usr/lib/code/extensions/node_modules/package.json"}
+[2020-09-01 22:34:52.084] [sharedprocess] [trace] Scanned system extensions: 81
+[2020-09-01 22:34:52.084] [sharedprocess] [debug] Writing language packs {}

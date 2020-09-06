@@ -1,0 +1,32 @@
+[2020-09-01 22:34:48.635] [main] [debug] Starting VS Code
+[2020-09-01 22:34:48.635] [main] [debug] from: /usr/lib/code
+[2020-09-01 22:34:48.635] [main] [debug] args: {"_":["/home/adamsiekierski/Coding/zsktasks-api"],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"telemetry":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"disable-user-env-probe":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"do-not-sync":false,"trace":false,"force-user-env":false,"open-devtools":false,"no-proxy-server":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false}
+[2020-09-01 22:34:48.635] [main] [trace] Resolving machine identifier...
+[2020-09-01 22:34:48.635] [main] [trace] Resolved machine identifier: 6059ed40b1483851e33a36516afad2591dbcaebcd216a3360e7d99e371b32dbc
+[2020-09-01 22:34:48.652] [main] [trace] [storage state.vscdb] open(/home/adamsiekierski/.config/Code - OSS/User/globalStorage/state.vscdb, retryOnBusy: true)
+[2020-09-01 22:34:48.653] [main] [trace] lifecycle (main): phase changed (value: 2)
+[2020-09-01 22:34:48.654] [main] [trace] windowsManager#open
+[2020-09-01 22:34:48.656] [main] [trace] window#validateWindowState: validating window state on 1 display(s) {"mode":1,"x":967,"y":42,"width":939,"height":1024}
+[2020-09-01 22:34:48.656] [main] [trace] window#validateWindowState: 1 monitor working area {"x":0,"y":0,"width":1920,"height":1080}
+[2020-09-01 22:34:48.656] [main] [trace] window#ctor: using window state {"mode":1,"x":967,"y":42,"width":939,"height":1024}
+[2020-09-01 22:34:48.788] [main] [trace] lifecycle (main): phase changed (value: 3)
+[2020-09-01 22:34:48.788] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2020-09-01 22:34:48.821] [main] [trace] [storage state.vscdb] Trace (event): SELECT * FROM ItemTable
+[2020-09-01 22:34:48.822] [main] [trace] [storage state.vscdb] getItems(): 6 rows
+[2020-09-01 22:34:48.923] [main] [trace] getShellEnvironment: running on CLI, skipping
+[2020-09-01 22:34:48.923] [main] [trace] [storage state.vscdb] updateItems(): insert(Map(3) {storage.serviceMachineId => 606fed13-7ab1-4b60-ba2b-13e8e57f4ac3, telemetry.lastSessionDate => Tue, 01 Sep 2020 20:34:22 GMT, telemetry.currentSessionDate => Tue, 01 Sep 2020 20:34:48 GMT}), delete(Set(0) {})
+[2020-09-01 22:34:48.924] [main] [trace] [storage state.vscdb] Trace (event): BEGIN TRANSACTION
+[2020-09-01 22:34:48.925] [main] [trace] [storage state.vscdb] Trace (event): INSERT INTO ItemTable VALUES ('storage.serviceMachineId','606fed13-7ab1-4b60-ba2b-13e8e57f4ac3'),('telemetry.lastSessionDate','Tue, 01 Sep 2020 20:34:22 GMT'),('telemetry.currentSessionDate','Tue, 01 Sep 2020 20:34:48 GMT')
+[2020-09-01 22:34:48.925] [main] [trace] [storage state.vscdb] Trace (event): END TRANSACTION
+[2020-09-01 22:34:52.025] [main] [trace] Shared process: IPC ready
+[2020-09-01 22:34:52.045] [main] [trace] Shared process: init ready
+[2020-09-01 22:35:16.932] [main] [trace] Lifecycle#window.on('close') - window ID 1
+[2020-09-01 22:35:16.935] [main] [trace] Lifecycle#onBeforeWindowClose.fire() - window ID 1
+[2020-09-01 22:35:16.940] [main] [trace] Lifecycle#window.on('closed') - window ID 1
+[2020-09-01 22:35:16.940] [main] [trace] Lifecycle#onWillShutdown.fire()
+[2020-09-01 22:35:16.944] [main] [trace] [storage state.vscdb] close()
+[2020-09-01 22:35:16.956] [main] [trace] Lifecycle#app.on(window-all-closed)
+[2020-09-01 22:35:16.957] [main] [trace] Lifecycle#app.on(before-quit)
+[2020-09-01 22:35:16.957] [main] [trace] Lifecycle#onBeforeShutdown.fire()
+[2020-09-01 22:35:16.959] [main] [trace] onBeforeShutdown {"lastActiveWindow":{"folder":"file:///home/adamsiekierski/Coding/zsktasks-api","backupPath":"/home/adamsiekierski/.config/Code - OSS/Backups/9ab21390c49dd6dc94f90a232a70df0f","uiState":{"mode":1,"x":14,"y":42,"width":1892,"height":1024}},"openedWindows":[]}
+[2020-09-01 22:35:16.960] [main] [trace] Lifecycle#app.on(will-quit)

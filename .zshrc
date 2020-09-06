@@ -5,6 +5,10 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 alias please=sudo
 
+function projects() {
+	cd ~/Coding/$1	
+}
+
 function open() {
 	xdg-open $1 &
 }
