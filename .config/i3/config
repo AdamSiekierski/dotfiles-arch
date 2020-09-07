@@ -177,12 +177,12 @@ bindsym $mod+r mode "resize"
 # apperance
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/spacex.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/spacex3.jpg
 
 for_window [class=".*"] border pixel 0
 
 # gaps
-gaps inner 15
+gaps inner 25
 
 # Brightness
 bindsym XF86MonBrightnessUp exec light -A 10 # increase screen brightness
