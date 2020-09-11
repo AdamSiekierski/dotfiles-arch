@@ -82,7 +82,7 @@ element {
 }
 
 element-icon {
-  size: 18px;
+  size: 28px;
   border: 0px;
 }
 
