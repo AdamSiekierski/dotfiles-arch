@@ -13,3 +13,7 @@ table {
 table, th, td {
   border: 1px solid black;
 }
+
+h1 {
+  font-size: 2em !imporant;
+}

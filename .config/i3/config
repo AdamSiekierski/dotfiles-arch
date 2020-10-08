@@ -177,7 +177,7 @@ bindsym $mod+r mode "resize"
 # apperance
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/spacex3.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/spacex.jpg
 
 for_window [class=".*"] border pixel 0
 
