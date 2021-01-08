@@ -1,5 +1,6 @@
 syntax on
 set nu
+set encoding=UTF-8
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
@@ -19,36 +20,45 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ryanoasis/vim-devicons'
 Plug 'preservim/nerdtree'
-Plug 'hzchirs/vim-material'
-Plug 'joshdick/onedark.vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-sleuth'
-Plug 'hzchirs/vim-material'
+Plug 'psliwka/vim-smoothie'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
-
+  \ 'branch': 'release/0.x'
+  \ }
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'junegunn/goyo.vim'
+Plug 'amix/vim-zenroom2'
+
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+Plug 'hzchirs/vim-material'
+
+
 
 call plug#end()
 
-let g:material_style='oceanic'
-set background=dark
-colorscheme vim-material
-let g:airline_theme='material'
-set guifont=JetbrainsMono\ Nerd\ Font:h16
+set directory^=$HOME/.vim/tmp//
 
-let NERDTreeMinimalUI=0
-let NERDTreeStatusline='vim'
+set background=light
+colorscheme vim-material
+
+let g:airline_theme='material'
 
 let g:airline_powerline_fonts = 1
+let NERDTreeShowHidden=1
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif

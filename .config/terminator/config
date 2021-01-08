@@ -1,9 +1,23 @@
+[global_config]
+[keybindings]
 [profiles]
   [[default]]
-    show_titlebar = false
-    background_color = "#0f111a"
-    cursor_color = "#ffcc00"
-    scrollbar_position = "disabled"
+    background_color = "#f9f9f9"
+    cursor_color = "#bbbbbb"
     cursor_color_fg = False
-    foreground_color = "#8f93a2"
-    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+    font = JetBrainsMono Nerd Font Mono 13
+    foreground_color = "#2a2c33"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#de3e35:#3f953a:#d2b67c:#2f5af3:#950095:#3f953a:#bbbbbb:#000000:#de3e35:#3f953a:#d2b67c:#2f5af3:#a00095:#3f953a:#ffffff"
+    use_system_font = False
+    background_image = None
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
