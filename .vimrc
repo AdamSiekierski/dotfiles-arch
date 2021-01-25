@@ -40,13 +40,13 @@ Plug 'prettier/vim-prettier', {
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'junegunn/goyo.vim'
 Plug 'amix/vim-zenroom2'
+Plug 'prashanthellina/follow-markdown-links'
 
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 Plug 'hzchirs/vim-material'
-
-
+Plug 'neoclide/npm.nvim', {'do' : 'npm install'}
 
 call plug#end()
 

@@ -166,7 +166,9 @@ exec_always --no-startup-id parcellite
 # apperance
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-fill ~/Pictures/spacex.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/big-siur.jpg
+
+#exec_always --no-startup-id xwinwrap -g 1920x1080 -ni -s -nf -b -nb -argb -- gifview -w WID ~/Pictures/loading.gif -a
 
 for_window [class=".*"] border pixel 0
 
@@ -179,8 +181,8 @@ bindsym XF86MonBrightnessDown exec light -U 10 # decrease screen brightness
 
 # multimedia keys
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -10% #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Media player controls
