@@ -111,7 +111,6 @@ label-muted = %{F#e57373}%{F-} muted
 
 format-muted = <label-muted>
 format-muted-underline = #5d4037
-format-muted-background = ${colors.nord4}
 format-muted-padding = 1
 format-volume = "<ramp-volume> <label-volume>"
 format-volume-padding = 1
